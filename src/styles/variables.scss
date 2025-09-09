@@ -1,0 +1,28 @@
+$primary-color: #BF1313;
+$bg-gray: #F9F9F9;
+$primary-button-focus: #EB3642;
+$primary-button: #990808;
+$white: #FFFFFF;
+$inputPlaceholder: #929292;
+$darkBlue: #10233E;
+$gray3: #C0C0C0;
+$gray7: #313131;
+$gray0: #F9F9F9;
+$gray1-5: #E6E6E6;
+$blue: #0C7DE5;
+$dark: #000000;
+:root {
+  --primary-color: #{$primary-color};
+  --bg-gray: #{$bg-gray};
+  --primary-button-focus: #{$primary-button-focus};
+  --primary-button: #{$primary-button};
+  --white: #{$white};
+  --input-placeholder: #{$inputPlaceholder};
+  --dark-blue: #{$darkBlue};
+  --gray-3: #{$gray3};
+  --gray-7: #{$gray7};
+  --gray-0: #{$gray0};
+  --gray-1-5: #{$gray1-5};
+  --blue: #{$blue};
+  --dark: #{$dark};
+}

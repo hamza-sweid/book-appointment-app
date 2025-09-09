@@ -1,0 +1,94 @@
+@import './variables.scss';
+@import './Margin.module.scss';
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+
+* {
+  font-family: 'Poppins', sans-serif;
+}
+
+.layout {
+  display: flex;
+  min-height: 100vh;
+  align-items: flex-start;
+}
+
+.main-content {
+  flex: 1;
+  transition: margin-left 0.3s ease;
+}
+
+.formGrid {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(1, 1fr); 
+
+  @media (min-width: 600px) {
+    grid-template-columns: repeat(2, 1fr); 
+  }
+
+  @media (min-width: 1024px) {
+    grid-template-columns: repeat(3, 1fr); 
+  }
+}
+
+.mainPage {
+  background-color: var(--gray-0);
+  padding: 1rem;
+}
+
+.formGridItem {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Column span helpers */
+.col-span-1 {
+  grid-column: span 1 / span 1;
+}
+
+.col-span-2 {
+  grid-column: span 2 / span 2;
+}
+
+.col-span-3 {
+  grid-column: span 3 / span 3;
+}
+
+@media (max-width: 1024px) {
+  .col-span-2,
+  .col-span-3 {
+    grid-column: span 2 / span 2;
+  }
+}
+
+@media (max-width: 640px) {
+  .col-span-1,
+  .col-span-2,
+  .col-span-3 {
+    grid-column: span 1 / span 1;
+  }
+}
+
+.text-right {
+  text-align: right;
+}
+
+.btn-responsive {
+  width: 100%;        
+  display: inline-flex; 
+  justify-content: center;
+  box-sizing: border-box;
+  margin-top: auto;
+
+  @media (min-width: 1024px) { 
+    width: auto;         
+  }
+}
+
+.flex {
+  display: flex;
+}
+
+.width-90 {
+  width: 90%;
+}

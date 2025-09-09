@@ -1,0 +1,133 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #fff;
+  padding: 0.30rem 1.5rem;
+  border-bottom: 1px solid #ddd;
+  position: relative;
+}
+
+.left .logo {
+  height: 35px;
+}
+
+.center {
+  flex: 1;
+  margin: 0 1rem;
+
+  .breadcrumb {
+    font-size: 0.875rem;
+    color: #666;
+
+    a {
+      color: #0070f3;
+      text-decoration: none;
+      margin-right: 0.25rem;
+
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+
+    span {
+      color: #333;
+      font-weight: bold;
+    }
+  }
+}
+
+.right {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+
+  .lang {
+    border: none;
+    background: transparent;
+    font-weight: bold;
+    cursor: pointer;
+  }
+
+  .user {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+
+    img {
+      width: 32px;
+      height: 32px;
+      border-radius: 50%;
+    }
+
+    span {
+      font-size: 0.875rem;
+    }
+  }
+
+  .rakLogo {
+    height: 32px;
+  }
+}
+
+.hamburger {
+  display: none;
+  background: none;
+  border: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+.mobileMenu {
+  position: absolute;
+  top: 100%;
+  left: 0; 
+  background: #fff;
+  width: 220px;
+  border: 1px solid #ddd;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  padding: 1rem;
+  z-index: 10;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+
+  nav {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+
+    a {
+      text-decoration: none;
+      color: #333;
+
+      &:hover {
+        color: #0070f3;
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .left {
+    display: none;
+  }
+
+  .username {
+    display: none;
+  }
+
+  .center {
+    display: none;
+  }
+
+  .hamburger {
+    display: block;
+  }
+
+  .right {
+    .rakLogo {
+      display: none; 
+    }
+  }
+}

@@ -1,0 +1,174 @@
+.formGroup {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1.25rem;
+}
+
+.label {
+  color: var(--gray-7);
+  font-size: 15px;
+  font-weight: 500;
+  margin-bottom: 0.5rem;
+}
+
+.required {
+  color: var(--primary-color);
+  margin-left: 0.25rem;
+}
+
+.input {
+  padding: 0.6rem 0.8rem;
+  border: 1px solid var(--gray-3);
+  border-radius: 4px;
+  background-color: var(--white);
+  color: var(--dark-blue);
+  font-size: 13px;
+
+  &::placeholder {
+    color: var(--input-placeholder);
+  }
+}
+
+.inputError {
+  outline: 2px solid var(--primary-color);
+}
+
+.hint {
+  display: flex;
+  align-items: flex-start;
+  gap: 5px;
+  margin-top: 0.25rem;
+  font-size: 13px;
+  color: var(--dark-blue);
+
+  svg {
+    margin-right: 0.3rem;
+  }
+}
+
+.error {
+  margin-top: 0.25rem;
+  font-size: 0.85rem;
+  color: var(--primary-color);
+}
+
+
+.select {
+  padding: 0.6rem 0.8rem;
+  border: 1px solid var(--gray-3);
+  border-radius: 4px;
+  background-color: var(--white);
+  color: var(--dark-blue);
+  font-size: 13px;
+  appearance: none;
+  cursor: pointer;
+
+  &::placeholder {
+    color: var(--input-placeholder);
+  }
+
+  &:focus {
+    outline: 2px solid var(--gray-3);
+  } 
+
+  option {
+    color: var(--dark-blue);
+    background-color: var(--white);
+  }
+}
+
+.inputWrapper {
+  position: relative;
+  display: flex;
+  align-items: center;
+
+  .input,
+  .select {
+    width: 100%;
+    padding-right: 2rem;
+    z-index: 1;
+  }
+
+  .fieldIcon {
+    position: absolute;
+    right: 0.6rem;
+    width: 16px;
+    height: 16px;
+    pointer-events: none;
+  }
+}
+
+
+
+input[type="date"],
+input[type="time"] {
+  cursor: pointer;
+  background-color: var(--white);
+  color: var(--dark-blue);
+
+  &::placeholder {
+    color: var(--input-placeholder);
+  }
+
+  &:active {
+    outline: 2px solid var(--gray-3);
+  }
+
+  &:focus {
+    outline: 2px solid var(--gray-3);
+  } 
+
+  &::-webkit-calendar-picker-indicator,
+  &::-webkit-clear-button,
+  &::-webkit-inner-spin-button,
+  &::-webkit-time-picker-indicator {
+    filter: invert(0.6);
+    cursor: pointer;
+  }
+}
+
+input[type="date"],
+input[type="time"] {
+  background-color: var(--white);
+  color: var(--dark-blue);
+  font-size: 13px;
+  padding: 0.6rem 0.8rem;
+  border: 1px solid var(--gray-3);
+  border-radius: 4px;
+
+  &::placeholder {
+    color: var(--input-placeholder);
+  }
+
+  &:focus {
+    outline: 2px solid var(--gray-3);
+  }
+
+  &::-webkit-calendar-picker-indicator,
+  &::-webkit-clear-button,
+  &::-webkit-inner-spin-button,
+  &::-webkit-time-picker-indicator {
+    filter: invert(0.6);
+    cursor: pointer;
+  }
+}
+
+.textarea {
+  padding: 0.6rem 0.8rem;
+  border: 1px solid var(--gray-3);
+  border-radius: 4px;
+  background-color: var(--white);
+  color: var(--dark-blue);
+  font-size: 14px;
+  resize: vertical;
+  min-height: 100px;
+  font-family: inherit;
+
+  &::placeholder {
+    color: var(--input-placeholder);
+  }
+
+  &:focus {
+    outline: 2px solid var(--gray-3);
+  }
+}
