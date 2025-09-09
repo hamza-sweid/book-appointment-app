@@ -1,27 +1,27 @@
 {
   "files": {
-    "main.css": "/book-appointment/static/css/main.cf9d61ae.css",
-    "main.js": "/book-appointment/static/js/main.1e1cacbb.js",
-    "static/media/user-photo.svg": "/book-appointment/static/media/user-photo.22159be8c5c7fea2a61dc85badd52a74.svg",
-    "static/media/rak-digital.svg": "/book-appointment/static/media/rak-digital.b9e0d0a4b36c4c03698b979f2d19bba3.svg",
-    "static/media/rak-full-logo.svg": "/book-appointment/static/media/rak-full-logo.1642b109c2c1a5d2b64a28abfb4a4f42.svg",
-    "static/media/business.svg": "/book-appointment/static/media/business.c83c5543e81235a14ad540d75fd60f26.svg",
-    "static/media/property.svg": "/book-appointment/static/media/property.ded5819b2151438297fa4ea6cee43f96.svg",
-    "static/media/service-request.svg": "/book-appointment/static/media/service-request.ded5819b2151438297fa4ea6cee43f96.svg",
-    "static/media/personal-info.svg": "/book-appointment/static/media/personal-info.730e8e61cf41fb5cf64b672b739b325c.svg",
-    "static/media/document.svg": "/book-appointment/static/media/document.967724762854f82f58dd2d241e349f88.svg",
-    "static/media/home.svg": "/book-appointment/static/media/home.84e3927e7d0503a5a884bd1bdec0c56c.svg",
-    "static/media/info.svg": "/book-appointment/static/media/info.7a8dd24f5fea0e00097a30d4476519ef.svg",
-    "index.html": "/book-appointment/index.html",
-    "static/media/black-right-arrow.svg": "/book-appointment/static/media/black-right-arrow.0d67b6a8bd594595b17b1387562348aa.svg",
-    "static/media/SelectIcon.svg": "/book-appointment/static/media/SelectIcon.01ce0c4a8a52ba897a723e1518f8d23b.svg",
-    "static/media/right-arrow.svg": "/book-appointment/static/media/right-arrow.8dd002c1ea7418a828ae1eba6f6eb555.svg",
-    "static/media/appointment.svg": "/book-appointment/static/media/appointment.4c5f7fd18532dc9a4928dd3d4fb8e54a.svg",
-    "main.cf9d61ae.css.map": "/book-appointment/static/css/main.cf9d61ae.css.map",
-    "main.1e1cacbb.js.map": "/book-appointment/static/js/main.1e1cacbb.js.map"
+    "main.css": "/book-appointment-app/static/css/main.cf9d61ae.css",
+    "main.js": "/book-appointment-app/static/js/main.767acb77.js",
+    "static/media/user-photo.svg": "/book-appointment-app/static/media/user-photo.22159be8c5c7fea2a61dc85badd52a74.svg",
+    "static/media/rak-digital.svg": "/book-appointment-app/static/media/rak-digital.b9e0d0a4b36c4c03698b979f2d19bba3.svg",
+    "static/media/rak-full-logo.svg": "/book-appointment-app/static/media/rak-full-logo.1642b109c2c1a5d2b64a28abfb4a4f42.svg",
+    "static/media/business.svg": "/book-appointment-app/static/media/business.c83c5543e81235a14ad540d75fd60f26.svg",
+    "static/media/property.svg": "/book-appointment-app/static/media/property.ded5819b2151438297fa4ea6cee43f96.svg",
+    "static/media/service-request.svg": "/book-appointment-app/static/media/service-request.ded5819b2151438297fa4ea6cee43f96.svg",
+    "static/media/personal-info.svg": "/book-appointment-app/static/media/personal-info.730e8e61cf41fb5cf64b672b739b325c.svg",
+    "static/media/document.svg": "/book-appointment-app/static/media/document.967724762854f82f58dd2d241e349f88.svg",
+    "static/media/home.svg": "/book-appointment-app/static/media/home.84e3927e7d0503a5a884bd1bdec0c56c.svg",
+    "static/media/info.svg": "/book-appointment-app/static/media/info.7a8dd24f5fea0e00097a30d4476519ef.svg",
+    "index.html": "/book-appointment-app/index.html",
+    "static/media/black-right-arrow.svg": "/book-appointment-app/static/media/black-right-arrow.0d67b6a8bd594595b17b1387562348aa.svg",
+    "static/media/SelectIcon.svg": "/book-appointment-app/static/media/SelectIcon.01ce0c4a8a52ba897a723e1518f8d23b.svg",
+    "static/media/right-arrow.svg": "/book-appointment-app/static/media/right-arrow.8dd002c1ea7418a828ae1eba6f6eb555.svg",
+    "static/media/appointment.svg": "/book-appointment-app/static/media/appointment.4c5f7fd18532dc9a4928dd3d4fb8e54a.svg",
+    "main.cf9d61ae.css.map": "/book-appointment-app/static/css/main.cf9d61ae.css.map",
+    "main.767acb77.js.map": "/book-appointment-app/static/js/main.767acb77.js.map"
   },
   "entrypoints": [
     "static/css/main.cf9d61ae.css",
-    "static/js/main.1e1cacbb.js"
+    "static/js/main.767acb77.js"
   ]
 }
