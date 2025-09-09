@@ -14,7 +14,9 @@ const Sidebar: React.FC<SidebarProps> = ({ isOpen, toggleSidebar }) => {
   return (
     <aside className={`${styles.sidebar} ${!isOpen ? styles.collapsed : ''}`}>
       <button className={styles.collapseBtn} onClick={toggleSidebar}>
-        {isOpen ? '←' : '→'}
+        <i
+          className={`${styles.arrow} ${isOpen ? styles.left : styles.right}`}
+        />
       </button>
 
       {/* Navigation Links */}
