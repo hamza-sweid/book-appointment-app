@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/book-appointment-app/static/css/main.cf9d61ae.css",
-    "main.js": "/book-appointment-app/static/js/main.767acb77.js",
+    "main.css": "/book-appointment-app/static/css/main.6da514fa.css",
+    "main.js": "/book-appointment-app/static/js/main.7cf10ade.js",
     "static/media/user-photo.svg": "/book-appointment-app/static/media/user-photo.22159be8c5c7fea2a61dc85badd52a74.svg",
     "static/media/rak-digital.svg": "/book-appointment-app/static/media/rak-digital.b9e0d0a4b36c4c03698b979f2d19bba3.svg",
     "static/media/rak-full-logo.svg": "/book-appointment-app/static/media/rak-full-logo.1642b109c2c1a5d2b64a28abfb4a4f42.svg",
@@ -17,11 +17,11 @@
     "static/media/SelectIcon.svg": "/book-appointment-app/static/media/SelectIcon.01ce0c4a8a52ba897a723e1518f8d23b.svg",
     "static/media/right-arrow.svg": "/book-appointment-app/static/media/right-arrow.8dd002c1ea7418a828ae1eba6f6eb555.svg",
     "static/media/appointment.svg": "/book-appointment-app/static/media/appointment.4c5f7fd18532dc9a4928dd3d4fb8e54a.svg",
-    "main.cf9d61ae.css.map": "/book-appointment-app/static/css/main.cf9d61ae.css.map",
-    "main.767acb77.js.map": "/book-appointment-app/static/js/main.767acb77.js.map"
+    "main.6da514fa.css.map": "/book-appointment-app/static/css/main.6da514fa.css.map",
+    "main.7cf10ade.js.map": "/book-appointment-app/static/js/main.7cf10ade.js.map"
   },
   "entrypoints": [
-    "static/css/main.cf9d61ae.css",
-    "static/js/main.767acb77.js"
+    "static/css/main.6da514fa.css",
+    "static/js/main.7cf10ade.js"
   ]
 }
